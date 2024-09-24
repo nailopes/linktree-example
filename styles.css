@@ -30,7 +30,7 @@ body {
 .profile-img {
     width: 150px;
     height: 150px;
-   
+    object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
     rotate: 15deg;
@@ -47,6 +47,19 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+    justify-content: flex-end;
+    
+}
+
+.name-intro {
+    font-size: 24px;
+    color: #666;
+   justify-content: flex-start;
+  
+}
+
+.name-all {
+    display: inline;
     
 }
 
